@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1185</width>
+    <height>608</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="pbtInsert">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>30</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>插入</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbtDelete">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>60</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>60</y>
+     <width>51</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>999</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbtSearch">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>90</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>查找</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_4">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>90</y>
+     <width>51</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>999</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>90</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>10</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>KEY</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>10</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>VALUE</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBoxKeyInst">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>30</y>
+     <width>51</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>999</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBoxValueInst">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>30</y>
+     <width>42</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonShow">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>130</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>show</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
